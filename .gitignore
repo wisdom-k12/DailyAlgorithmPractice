@@ -1,41 +1,43 @@
-# Prerequisites
-*.d
+# ===== OS =====
+.DS_Store
+Thumbs.db
 
-# Compiled Object files
-*.slo
-*.lo
+# ===== JetBrains IDEs (IntelliJ IDEA / CLion) =====
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# ===== Java =====
+*.class
+*.jar
+*.war
+*.ear
+hs_err_pid*
+target/
+build/
+.gradle/
+
+# ===== C++ / CMake / CLion =====
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeDeps/
+Makefile
+compile_commands.json
+Testing/
+CTestTestfile.cmake
+install_manifest.txt
+
+# Binaries / objects
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
-
-# Executables
+*.so
+*.dll
+*.dylib
 *.exe
 *.out
-*.app
-
-# debug information files
-*.dwo
+*.pdb
