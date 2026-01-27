@@ -9,4 +9,5 @@
 
 ## Progress
 | Date | Problem | Difficulty |
+|------|---------|------------|
 | 2026-01-27 | 1	A+B Problem | Easy |
